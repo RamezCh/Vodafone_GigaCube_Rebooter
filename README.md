@@ -43,8 +43,8 @@ ROUTER_PASSWORD=yourpasswordhere
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/vodafone-gigacube-rebooter.git
-cd vodafone-gigacube-rebooter
+git clone https://github.com/RamezCh/Vodafone_GigaCube_Rebooter.git
+cd Vodafone_GigaCube_Rebooter
 ```
 
 2. Install dependencies:
@@ -73,7 +73,7 @@ CHROMEDRIVER_PATH = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\1
 Run the script:
 
 ```bash
-python no_internet_restart_router.py
+python vodafone_gigacube_rebooter.py
 ```
 
 The script will:
