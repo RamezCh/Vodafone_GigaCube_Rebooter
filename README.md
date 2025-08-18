@@ -6,7 +6,7 @@ Automatically monitor your Vodafone GigaCube router and reboot it when internet 
 
 ## Why This Tool Exists
 
-For the past 3 weeks, Vodafone has been experiencing issues with their signal tower. As a result, I frequently have no internet for long periods of time, and the only workaround is to manually reboot the GigaCube router. After rebooting, I may get a connection for a few minutes to a few hours, and then the same problem repeats.  
+For the past 3 weeks, Vodafone has been experiencing issues with their signal tower in my area. As a result, I frequently have no internet for long periods of time, and the only workaround is to manually reboot the GigaCube router. After rebooting, I may get a connection for a few minutes to a few hours, and then the same problem repeats.  
 
 This tool automates that process, keeping the internet connected without constant manual intervention.
 
