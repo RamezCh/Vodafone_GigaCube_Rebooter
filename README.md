@@ -104,6 +104,22 @@ All configuration values can be updated at the top of the Python script.
 
 ---
 
+## UPDATE
+
+You can now use chromedriver_installer.py to automatically download the correct version of ChromeDriver that matches your installed Chrome browser.
+
+**Note**: An internet connection is required to run the installer. Once ChromeDriver is downloaded, you can use vodafone_gigacube_rebooter.py offline.
+
+```bash
+pip install -r chromedriver_installer_requirements.txt
+python chromedriver_installer.py
+```
+The script will output the path where ChromeDriver was saved. Copy this path then open vodafone_gigacube_rebooter.py and update the CHROMEDRIVER_PATH variable with the logged path by the installer.
+
+After completing these steps, the rebooter will be ready to use even without an internet connection.
+
+---
+
 ## Disclaimer
 
 Use this script responsibly. It is intended for personal use with your own Vodafone router. Frequent restarts may interfere with other network users or violate Vodafone terms of service.

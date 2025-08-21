@@ -25,11 +25,13 @@ RESTART_CONFIRMATION_BUTTON_ID = "yesbtn"
 TIMEOUT = 10
 INTERNET_TEST_URLS = ["https://www.google.com", "https://www.cloudflare.com"]
 INTERNET_TEST_TIMEOUT = 5
-REBOOT_WAIT = 60 * 2  # seconds to wait after router restart before recheck
+REBOOT_WAIT = 60 * 1.5  # seconds to wait after router restart before recheck
 
 # Brave Browser config
 BRAVE_PATH = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe"
-CHROMEDRIVER_PATH = r"C:\Program Files\BraveSoftware\Brave-Browser\Application\139.1.81.135\chromedriver.exe"
+# Or The path from chromedriver_installer script (Be sure to download it when you have internet for future usage!)
+# If your Browser is updated you need to run chromedriver_installer again and change the path!
+CHROMEDRIVER_PATH = r"C:\Users\Your_Username\.wdm\drivers\chromedriver\win64\139.0.7258.138\chromedriver-win32\chromedriver.exe"
 
 
 def is_internet_up():
